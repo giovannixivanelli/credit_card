@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 3</title>
+</head>
+
+<body>
+    <div>
+        <input type="text" id="nameInput" placeholder="Введите Имя">
+        <input type="text" id="surnameInput" placeholder="Введите Фамилию">
+        <select id="colorSelect">
+            <option value="empty_color">---Выбрать цвет---</option>
+            <option value="orange">Оранжевый</option>
+            <option value="lightblue">Голубой</option>
+            <option value="lightgreen">Зеленый</option>
+            <option value="lightpink">Розовый</option>
+        </select>
+        <select id="imageSelect">
+            <option value="empty_picture">---Выбрать картинку---</option>
+            <option value="mountain">Горы</option>
+            <option value="lake">Озеро</option>
+        </select>
+    </div>
+    <br>
+    <div class="credit-card" id="card">
+        <div class="upper-data">
+            <div class="bank">SOCIAL BANK</div>
+        </div>
+        <div class="about-card">
+            <div class="chip-contactless">
+                <img src="img/chip.png" alt="chip" width="50px" height="40px">
+                <img src="img/contactless.png" alt="contactless" width="40px" height="40px">
+            </div>
+            <div class="middle-data">
+                <div class="card-number">1234 5678 9012 3456</div>
+                <div class="card-data">
+                    <div class="card-code">123</div>
+                    <div class="card-expires">12/29</div>
+                </div>
+            </div>
+            <div class="holder">
+                <div class="holder-name">IVAN</div>
+                <div class="holder-surname">IVANOV</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
